@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta id="themeColor" name="theme-color" content="#0c0d11">
+<title>Museum</title>
+<link rel="icon" href="icone/museum.png">
+<link rel="stylesheet" href="museum.css?v=1">
+</head>
+<body>
+
+<!-- ===================== SALA: la griglia delle icone ===================== -->
+<header class="testata">
+  <h1 class="titolo">Museum</h1>
+  <p class="conta" id="conta"></p>
+</header>
+
+<div class="cerca-riga">
+  <div class="cerca">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4.2-4.2"/></svg>
+    <input id="cerca" type="search" placeholder="Cerca un'app" autocomplete="off"
+           enterkeyhint="search" aria-label="Cerca un'app">
+    <button id="pulisci" class="pulisci" type="button" hidden aria-label="Pulisci">&times;</button>
+  </div>
+</div>
+
+<nav class="filtri" id="filtri" aria-label="Filtri"></nav>
+
+<main class="sala" id="sala">
+  <div class="griglia" id="griglia"></div>
+  <p class="vuoto" id="vuoto" hidden>Nessuna app con questo filtro.</p>
+  <p class="firma">Tutte le app sono di <b>fithzhood</b> · <span id="versione"></span></p>
+</main>
+
+<!-- ===================== SCHEDA: una sola app ===================== -->
+<section class="scheda" id="scheda" hidden aria-modal="true" role="dialog">
+  <div class="scheda-testa">
+    <button id="indietro" class="tondo" type="button" aria-label="Torna alle icone">
+      <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+  </div>
+
+  <div class="scheda-corpo">
+    <img id="s-icona" class="s-icona" alt="">
+    <h2 id="s-nome" class="s-nome"></h2>
+    <p id="s-sotto" class="s-sotto"></p>
+
+    <div class="s-etichette" id="s-etichette"></div>
+
+    <p id="s-testo" class="s-testo"></p>
+    <p id="s-nota" class="s-nota" hidden>Il link porta alla versione <b>clear</b>: lo stesso
+      gioco, senza l'easter egg, generato dai sorgenti dell'originale.</p>
+
+    <div class="s-link">
+      <span id="s-url" class="s-url"></span>
+      <div class="s-bottoni">
+        <a id="s-apri" class="btn primario" target="_blank" rel="noopener">Apri</a>
+        <button id="s-copia" class="btn" type="button">Copia link</button>
+      </div>
+    </div>
+
+    <div class="s-tag" id="s-tag"></div>
+
+    <a id="s-repo" class="s-repo" target="_blank" rel="noopener">Vedi il codice su GitHub</a>
+  </div>
+</section>
+
+<div id="avviso" class="avviso" role="status" aria-live="polite" hidden></div>
+
+<script src="museum-data.js?v=1"></script>
+<script src="museum.js?v=1"></script>
+</body>
+</html>
