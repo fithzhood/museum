@@ -234,8 +234,32 @@ document.addEventListener('keydown', event => {
 /******************************************************************
  * SEZIONE 6: AVVIO
  ******************************************************************/
-if (window.Capacitor && window.Capacitor.isNativePlatform && window.Capacitor.isNativePlatform()) {
+function dentroApp() {
+  return !!(window.Capacitor && window.Capacitor.isNativePlatform &&
+            window.Capacitor.isNativePlatform());
+}
+
+if (dentroApp()) {
   document.body.classList.add('capacitor');
+  /* Dentro l'APK il tasto indietro di Android NON segue la cronologia della
+     pagina: se non lo si prende in mano chiude l'app anche con la scheda
+     aperta. Qui torna indietro un passo alla volta — prima la scheda, poi i
+     filtri — e solo dall'elenco intero esce davvero. */
+  const nativa = window.Capacitor.Plugins && window.Capacitor.Plugins.App;
+  if (nativa && nativa.addListener) {
+    nativa.addListener('backButton', () => {
+      if (!el.scheda.hidden) { history.back(); return; }
+      if (stato.testo || stato.tag || stato.tipo !== 'tutte') {
+        stato.testo = ''; stato.tag = null; stato.tipo = 'tutte';
+        el.cerca.value = '';
+        el.pulisci.hidden = true;
+        disegnaFiltri();
+        disegnaSala();
+        return;
+      }
+      nativa.exitApp();
+    });
+  }
 }
 
 /* La versione e' quella scritta accanto al file: cosi' la pagina dice
