@@ -220,6 +220,13 @@ const APP = [
     tipo: 'gioco', tag: ['carte', 'solitario', 'scale', 'telefono']
   },
   {
+    id: 'spola', nome: 'Spola', sotto: 'Passa link e immagini fra telefono e PC',
+    testo: "Quello che si incolla su un dispositivo compare sull'altro, gia' pronto da copiare con un tasto solo. Testo, link e immagini viaggiano cifrati, e si cancellano da soli dopo qualche ora: e' roba di passaggio, non un archivio. Sul telefono si trova anche nel menu Condividi di Android.",
+    url: 'https://fithzhood.github.io/spola/spola.html',
+    repo: 'https://github.com/fithzhood/spola',
+    tipo: 'strumento', tag: ['appunti', 'condivisione', 'telefono', 'cifrato', 'link', 'immagini']
+  },
+  {
     id: 'slot', nome: 'Slot Regno', sotto: 'Una slot machine diventata roguelite',
     testo: 'Ventiquattro round, otto boss: ogni round chiede una cassa minima, e fra un round e l\'altro si comprano cimeli che cambiano le regole dei rulli.',
     url: 'https://fithzhood.github.io/slot-clear/slot-clear.html',
