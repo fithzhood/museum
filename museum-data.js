@@ -1,8 +1,7 @@
 /******************************************************************
  * Museum — l'elenco delle app
  *
- * Un oggetto per app. Il campo `clear` dice che il link porta alla
- * versione senza easter egg, generata dai sorgenti del gioco vero.
+ * Un oggetto per app.
  *
  * campi:
  *   id        nome del file dell'icona in icone/  (e chiave stabile)
@@ -13,7 +12,6 @@
  *   repo      il codice
  *   tipo      gioco | strumento | scuola | svago
  *   tag       parole per la ricerca e i filtri
- *   clear     true se il link e' alla versione clear
  ******************************************************************/
 const APP = [
   {
@@ -21,7 +19,7 @@ const APP = [
     testo: 'Si difende un pozzo da creature lente e numerose. L\'acqua si pompa, si mescola e diventa munizione: ogni ricetta ha un effetto diverso, e il ricettario si riempie giocando.',
     url: 'https://fithzhood.github.io/aqua-clear/aqua-clear.html',
     repo: 'https://github.com/fithzhood/aqua-clear',
-    tipo: 'gioco', tag: ['sopravvivenza', 'ondate', 'azione', 'ricette'], clear: true
+    tipo: 'gioco', tag: ['sopravvivenza', 'ondate', 'azione', 'ricette']
   },
   {
     id: 'auguri', nome: 'Auguri', sotto: 'Due pulsantoni e un augurio',
@@ -56,7 +54,7 @@ const APP = [
     testo: 'Cinque elementi in mano, contati: ogni colpo tirato e\' un colpo in meno. Fuoco batte natura, natura batte acqua, acqua batte fuoco; luce e buio cambiano quanti attacchi restano.',
     url: 'https://fithzhood.github.io/element-clear/element-clear.html',
     repo: 'https://github.com/fithzhood/element-clear',
-    tipo: 'gioco', tag: ['carte', 'elementi', 'roguelite', 'boss'], clear: true
+    tipo: 'gioco', tag: ['carte', 'elementi', 'roguelite', 'boss']
   },
   {
     id: 'faida', nome: 'Faida', sotto: 'Un automa cellulare a matrice di relazioni',
@@ -70,7 +68,7 @@ const APP = [
     testo: 'Ogni tocco gira una carta e le quattro adiacenti. Si vince quando tutte mostrano la stessa faccia: la griglia va da 3x3 a 10x10.',
     url: 'https://fithzhood.github.io/flipflop-clear/flipflop-clear.html',
     repo: 'https://github.com/fithzhood/flipflop-clear',
-    tipo: 'gioco', tag: ['puzzle', 'lights out', 'griglia'], clear: true
+    tipo: 'gioco', tag: ['puzzle', 'lights out', 'griglia']
   },
   {
     id: 'forgetful-fish', nome: 'Forgetful Fish', sotto: 'Il formato Dandan di Magic, contro il computer',
@@ -119,7 +117,7 @@ const APP = [
     testo: 'Quattro avversari, ognuno con un carattere suo, attorno a un tavolo dove il giro dei posti e\' l\'ordine di gioco. Si gioca fino a che ne resta uno.',
     url: 'https://fithzhood.github.io/holdemz-clear/holdemz-clear.html',
     repo: 'https://github.com/fithzhood/holdemz-clear',
-    tipo: 'gioco', tag: ['carte', 'poker', 'contro il computer'], clear: true
+    tipo: 'gioco', tag: ['carte', 'poker', 'contro il computer']
   },
   {
     id: 'horned-garden', nome: 'Horned Garden', sotto: 'Un rompicapo di logica a numeri',
@@ -140,7 +138,7 @@ const APP = [
     testo: 'Si pesca una carta, si sceglie da che parte muoversi sull\'anello, e si vede dove si finisce. Artefatti, mercanti, missioni e ladri, un tabellone dopo l\'altro.',
     url: 'https://fithzhood.github.io/looptrail-clear/looptrail-clear.html',
     repo: 'https://github.com/fithzhood/looptrail-clear',
-    tipo: 'gioco', tag: ['roguelike', 'tabellone', 'carte'], clear: true
+    tipo: 'gioco', tag: ['roguelike', 'tabellone', 'carte']
   },
   {
     id: 'lost-temples', nome: 'Lost Temples', sotto: 'Incastri di pentomini in un tempio',
@@ -168,7 +166,7 @@ const APP = [
     testo: 'Due merci uguali fanno quella dopo. Il banco chiede certe merci a certi prezzi, e la cassa serve ad allargare il banco: un turno alla volta.',
     url: 'https://fithzhood.github.io/mergemarket-clear/mergemarket-clear.html',
     repo: 'https://github.com/fithzhood/mergemarket-clear',
-    tipo: 'gioco', tag: ['merge', 'gestionale', 'griglia'], clear: true
+    tipo: 'gioco', tag: ['merge', 'gestionale', 'griglia']
   },
   {
     id: 'mossglen', nome: 'Mossglen', sotto: 'Un villaggio tranquillo, rifatto versione dopo versione',
@@ -189,7 +187,7 @@ const APP = [
     testo: 'Si estraggono carte a punti e poi si combinano con le quattro operazioni per arrivare esattamente al numero chiesto.',
     url: 'https://fithzhood.github.io/number-master-clear/number-master-clear.html',
     repo: 'https://github.com/fithzhood/number-master-clear',
-    tipo: 'gioco', tag: ['gacha', 'numeri', 'calcolo', 'puzzle'], clear: true
+    tipo: 'gioco', tag: ['gacha', 'numeri', 'calcolo', 'puzzle']
   },
   {
     id: 'opera', nome: 'Opera', sotto: 'Una figura da portare dentro il contorno',
@@ -203,14 +201,14 @@ const APP = [
     testo: 'Squadra da comporre, duecento ondate, biomi, uova e gacha: una riscrittura da zero pensata per lo schermo verticale e per il tocco.',
     url: 'https://fithzhood.github.io/pokerogue-clear/pokerogue-clear.html',
     repo: 'https://github.com/fithzhood/pokerogue-clear',
-    tipo: 'gioco', tag: ['roguelite', 'mostri', 'squadra', 'lungo'], clear: true
+    tipo: 'gioco', tag: ['roguelite', 'mostri', 'squadra', 'lungo']
   },
   {
     id: 'pokerz', nome: 'Pokerz', sotto: 'Poker a cinque carte, due giri di scarto',
     testo: 'Quattro avversari, monete contate, e due occasioni per cambiare le carte in mano. Vince chi resta con qualcosa quando gli altri sono a zero.',
     url: 'https://fithzhood.github.io/pokerz-clear/pokerz-clear.html',
     repo: 'https://github.com/fithzhood/pokerz-clear',
-    tipo: 'gioco', tag: ['carte', 'poker', 'contro il computer'], clear: true
+    tipo: 'gioco', tag: ['carte', 'poker', 'contro il computer']
   },
   {
     id: 'scalaquaranta', nome: 'Scala Quaranta', sotto: 'Il solitario che si gioca con un pollice',
@@ -231,7 +229,7 @@ const APP = [
     testo: 'Ventiquattro round, otto boss: ogni round chiede una cassa minima, e fra un round e l\'altro si comprano cimeli che cambiano le regole dei rulli.',
     url: 'https://fithzhood.github.io/slot-clear/slot-clear.html',
     repo: 'https://github.com/fithzhood/slot-clear',
-    tipo: 'gioco', tag: ['roguelite', 'slot', 'negozio', 'boss'], clear: true
+    tipo: 'gioco', tag: ['roguelite', 'slot', 'negozio', 'boss']
   },
   {
     id: 'speziale', nome: 'Speziale', sotto: 'Deduzione con icone che non hanno un nome',
@@ -245,7 +243,7 @@ const APP = [
     testo: 'Si tirano i simboli sulla griglia e si contano le linee. Fra un round e l\'altro c\'e\' un negozio di buff, e il Glitch che ogni tanto nasconde una casella.',
     url: 'https://fithzhood.github.io/squarex-clear/squarex-clear.html',
     repo: 'https://github.com/fithzhood/squarex-clear',
-    tipo: 'gioco', tag: ['griglia', 'punteggio', 'buff', 'roguelite'], clear: true
+    tipo: 'gioco', tag: ['griglia', 'punteggio', 'buff', 'roguelite']
   },
   {
     id: 'storia-romana', nome: 'Atlante di Storia Romana', sotto: 'Le carte, la cronologia, i collegamenti',
@@ -266,7 +264,7 @@ const APP = [
     testo: 'Si gioca in una casella libera di una qualsiasi delle tre griglie, e chi allinea tre segni PERDE. La CPU ha tre livelli, e si puo\' anche giocare in due.',
     url: 'https://fithzhood.github.io/tritris-clear/tritris-clear.html',
     repo: 'https://github.com/fithzhood/tritris-clear',
-    tipo: 'gioco', tag: ['tris', 'a perdere', 'contro il computer', 'in due'], clear: true
+    tipo: 'gioco', tag: ['tris', 'a perdere', 'contro il computer', 'in due']
   },
   {
     id: 'twisty-codex', nome: 'Twisty Codex', sotto: 'Gli algoritmi di 45 rompicapi a rotazione',
@@ -280,6 +278,6 @@ const APP = [
     testo: 'La plancia ha quattro lati con un nome cardinale e si gioca solo da quello in alto; dopo ogni mossa ruota. I quattro pulsanti leggono sempre S W N E, ed e\' quella la trovata.',
     url: 'https://fithzhood.github.io/urdl-clear/urdl-clear.html',
     repo: 'https://github.com/fithzhood/urdl-clear',
-    tipo: 'gioco', tag: ['forza quattro', 'rotazione', 'contro il computer', 'in due'], clear: true
+    tipo: 'gioco', tag: ['forza quattro', 'rotazione', 'contro il computer', 'in due']
   }
 ];

@@ -12,7 +12,7 @@ const el = {};
 [
   'griglia', 'sala', 'vuoto', 'conta', 'cerca', 'pulisci', 'filtri', 'versione',
   'scheda', 'indietro', 's-icona', 's-nome', 's-sotto', 's-etichette', 's-testo',
-  's-url', 's-apri', 's-copia', 's-tag', 's-repo', 's-nota', 'avviso'
+  's-url', 's-apri', 's-copia', 's-tag', 's-repo', 'avviso'
 ].forEach(id => { el[id.replace(/-/g, '_')] = document.getElementById(id); });
 
 const TIPI = [
@@ -74,7 +74,7 @@ function disegnaSala() {
 
   viste.forEach(app => {
     const b = document.createElement('button');
-    b.className = 'tessera' + (app.clear ? ' pulita' : '');
+    b.className = 'tessera';
     b.type = 'button';
     b.title = app.nome;
     b.setAttribute('aria-label', app.nome);
@@ -110,13 +110,9 @@ function apriScheda(id, spingi) {
   el.s_apri.href = app.url;
   el.s_repo.href = app.repo;
 
-  el.s_nota.hidden = !app.clear;
   el.s_etichette.innerHTML = '';
   const tipo = TIPI.find(t => t.id === app.tipo);
   el.s_etichette.appendChild(etichetta(tipo ? tipo.nome : app.tipo));
-  if (app.clear) {
-    el.s_etichette.appendChild(etichetta('versione clear', true));
-  }
 
   el.s_tag.innerHTML = '';
   app.tag.forEach(t => {
@@ -142,9 +138,9 @@ function apriScheda(id, spingi) {
   if (spingi) history.pushState({ app: id }, '', '#app=' + id);
 }
 
-function etichetta(testo, oro) {
+function etichetta(testo) {
   const s = document.createElement('span');
-  s.className = 'etichetta' + (oro ? ' oro' : '');
+  s.className = 'etichetta';
   s.textContent = testo;
   return s;
 }

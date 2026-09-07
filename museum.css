@@ -17,7 +17,6 @@
   --smorto:     rgba(238, 240, 246, 0.58);
   --accento:    #6f9bff;
   --accento-cupo: #24304d;
-  --oro:        #e8c07a;
   --raggio:     16px;
   --safe-t: env(safe-area-inset-top, 0px);
   --safe-b: env(safe-area-inset-bottom, 0px);
@@ -184,17 +183,6 @@ input { -webkit-user-select: text; user-select: text; }
   display: block;
 }
 
-/* il bollino delle versioni clear: piccolo, in un angolo */
-.tessera.pulita::after {
-  content: "";
-  position: absolute;
-  right: 7px; top: 7px;
-  width: 7px; height: 7px;
-  border-radius: 50%;
-  background: var(--oro);
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.45);
-}
-
 .vuoto, .firma {
   padding: 26px 4px;
   text-align: center;
@@ -290,11 +278,6 @@ input { -webkit-user-select: text; user-select: text; }
   color: #bcd0ff;
 }
 
-.etichetta.oro {
-  background: rgba(232, 192, 122, 0.15);
-  color: var(--oro);
-}
-
 .s-testo {
   margin-top: 16px;
   font-size: 15px;
@@ -302,19 +285,6 @@ input { -webkit-user-select: text; user-select: text; }
   text-align: left;
   color: rgba(238, 240, 246, 0.86);
 }
-
-.s-nota {
-  margin-top: 12px;
-  padding: 10px 12px;
-  border-left: 3px solid var(--oro);
-  border-radius: 0 10px 10px 0;
-  background: rgba(232, 192, 122, 0.07);
-  font-size: 13px;
-  line-height: 1.5;
-  text-align: left;
-  color: rgba(238, 240, 246, 0.78);
-}
-.s-nota[hidden] { display: none; }
 
 /* --- il link, con il pulsante per copiarlo --- */
 .s-link {
