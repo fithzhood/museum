@@ -36,6 +36,13 @@ const APP = [
     tipo: 'strumento', tag: ['lego', 'costruzioni', '3d']
   },
   {
+    id: 'compasso', nome: 'Compasso', sotto: 'La matematica del liceo, un argomento alla volta',
+    testo: 'Trentadue argomenti, dagli insiemi numerici agli integrali: spiegazioni con grafici interattivi e animazioni, esempi svolti, flashcard da scegliere e ripassare, esercizi con il controllo della risposta, quiz di teoria. Zenone, la tartaruga, dà suggerimenti e racconta i matematici.',
+    url: 'https://fithzhood.github.io/compasso/compasso.html',
+    repo: 'https://github.com/fithzhood/compasso',
+    tipo: 'scuola', tag: ['matematica', 'liceo', 'flashcard', 'quiz', 'esercizi', 'grafici', 'animazioni', 'ripasso']
+  },
+  {
     id: 'cronoitalia', nome: 'CronoItalia', sotto: 'La carta d\'Italia che cambia con l\'anno',
     testo: 'Si sposta l\'anno e i confini degli stati italiani si ridisegnano. Accanto alla carta ci sono diorami a voxel delle scene di quel periodo.',
     url: 'https://fithzhood.github.io/cronoitalia/cronoitalia.html',
