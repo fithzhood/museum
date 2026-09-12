@@ -15,6 +15,13 @@
  ******************************************************************/
 const APP = [
   {
+    id: 'animetracker', nome: 'Anime Tracker', sotto: 'A che puntata sono, serie per serie',
+    testo: 'Ogni serie ha la sua copertina, l\'ultimo episodio visto e il prossimo da vedere, che si muovono con gli stessi tasti. Una stella segna quelle in pari, un pallino quelle finite.',
+    url: 'https://fithzhood.github.io/animetracker/animetracker.html',
+    repo: 'https://github.com/fithzhood/animetracker',
+    tipo: 'strumento', tag: ['anime', 'serie', 'episodi', 'elenco']
+  },
+  {
     id: 'aqua', nome: 'Aqua Siege', sotto: 'Sopravvivenza a ondate, con l\'acqua come arma',
     testo: 'Si difende un pozzo da creature lente e numerose. L\'acqua si pompa, si mescola e diventa munizione: ogni ricetta ha un effetto diverso, e il ricettario si riempie giocando.',
     url: 'https://fithzhood.github.io/aqua-clear/aqua-clear.html',
@@ -27,6 +34,13 @@ const APP = [
     url: 'https://fithzhood.github.io/auguri/auguri.html',
     repo: 'https://github.com/fithzhood/auguri',
     tipo: 'svago', tag: ['auguri', 'pagina singola']
+  },
+  {
+    id: 'brainflip', nome: 'BrainFlip', sotto: 'Quiz a flashcard, una domanda alla volta',
+    testo: 'Si legge la domanda, si sceglie fra quattro risposte in colonna e si scopre subito se era quella. Le domande sono immagini: formule e figure di ottica come stanno sul foglio, non testo riscritto.',
+    url: 'https://fithzhood.github.io/brainflip/brainflip.html',
+    repo: 'https://github.com/fithzhood/brainflip',
+    tipo: 'scuola', tag: ['flashcard', 'quiz', 'fisica', 'ottica', 'ripasso']
   },
   {
     id: 'brick-builder', nome: 'Brick Builder', sotto: 'Costruire set LEGO pezzo per pezzo',
@@ -111,6 +125,13 @@ const APP = [
     url: 'https://fithzhood.github.io/goniometria/formulario-goniometria.html',
     repo: 'https://github.com/fithzhood/goniometria',
     tipo: 'scuola', tag: ['matematica', 'goniometria', 'formule', 'ripasso']
+  },
+  {
+    id: 'kuot', nome: 'Kuot', sotto: 'Citazioni, con la faccia di chi le ha dette',
+    testo: 'Una raccolta di frasi da leggere una alla volta, ognuna con il ritratto dell\'autore. Si aggiungono, si cercano e si tengono in tasca.',
+    url: 'https://fithzhood.github.io/kuot/kuot.html',
+    repo: 'https://github.com/fithzhood/kuot',
+    tipo: 'svago', tag: ['citazioni', 'frasi', 'raccolta', 'autori']
   },
   {
     id: 'palestra-goniometria', nome: 'Palestra di Goniometria', sotto: 'Esercizi, quiz e schede da ripasso',
@@ -218,6 +239,13 @@ const APP = [
     tipo: 'gioco', tag: ['carte', 'poker', 'contro il computer']
   },
   {
+    id: 'randomcommander', nome: 'Random Commander', sotto: 'Quale mazzo tocca stasera',
+    testo: 'I mazzi girano in tondo fra «da giocare», «in corso» e «giocati», e si spostano toccandoli; il sorteggio ne pesca uno. Ogni mazzo porta le sue bande di colore, nell\'ordine in cui sono state scelte.',
+    url: 'https://fithzhood.github.io/randomcommander/randomcommander.html',
+    repo: 'https://github.com/fithzhood/randomcommander',
+    tipo: 'svago', tag: ['magic', 'commander', 'mazzi', 'sorteggio', 'carte']
+  },
+  {
     id: 'scalaquaranta', nome: 'Scala Quaranta', sotto: 'Il solitario che si gioca con un pollice',
     testo: 'La versione a un giocatore del gioco di carte: scale e tris da calare, con la mano che sta tutta sullo schermo del telefono senza rimpicciolirsi.',
     url: 'https://fithzhood.github.io/scalaquaranta/scalaquaranta.html',
@@ -286,5 +314,12 @@ const APP = [
     url: 'https://fithzhood.github.io/urdl-clear/urdl-clear.html',
     repo: 'https://github.com/fithzhood/urdl-clear',
     tipo: 'gioco', tag: ['forza quattro', 'rotazione', 'contro il computer', 'in due']
+  },
+  {
+    id: 'weekscramble', nome: 'WeekScramble', sotto: 'Un\'attivita\' per ogni giorno, tirata a sorte',
+    testo: 'Ogni attivita\' ha un peso: piu\' e\' alto, piu\' spesso esce. Lo scramble riempie i sette giorni pescando da un mazzo in cui ognuna compare tante volte quanto pesa, e le preferite pesano di piu\'.',
+    url: 'https://fithzhood.github.io/weekscramble/weekscramble.html',
+    repo: 'https://github.com/fithzhood/weekscramble',
+    tipo: 'svago', tag: ['settimana', 'sorteggio', 'abitudini', 'pesi']
   }
 ];
