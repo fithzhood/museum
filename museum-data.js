@@ -16,7 +16,7 @@
 const APP = [
   {
     id: 'alea', nome: 'Alea', sotto: 'Un dado con otto facce di carattere',
-    testo: 'Si sceglie il valore massimo (d4, d20, d100 o quello che vuoi) e si lancia. Lo storico tiene tutti i tiri; con «senza ripetizioni» un numero non ricompare finche' non sono usciti tutti, e a giro completo l'app avvisa. Otto temi ben distinti: heavy metal, high fantasy, sci-fi, arcade, casino', pirati, horror e candy. Suono dei dadi, spento di serie.',
+    testo: 'Si sceglie il valore massimo (d4, d20, d100 o quello che vuoi) e si lancia. Lo storico tiene tutti i tiri; con «senza ripetizioni» un numero non ricompare finché non sono usciti tutti, e a giro completo l’app avvisa. Otto temi ben distinti: heavy metal, high fantasy, sci-fi, arcade, casinò, pirati, horror e candy. Suono dei dadi, spento di serie.',
     url: 'https://fithzhood.github.io/alea/alea.html',
     repo: 'https://github.com/fithzhood/alea',
     tipo: 'strumento', tag: ['dado', 'dadi', 'sorteggio', 'temi', 'giochi da tavolo']
