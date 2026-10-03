@@ -274,6 +274,20 @@ const APP = [
     tipo: 'gioco', tag: ['roguelite', 'slot', 'negozio', 'boss']
   },
   {
+    id: 'spellkeep', nome: 'SpellKeep', sotto: 'Duello di carte e torri contro il computer',
+    testo: 'Il rifacimento per telefono di MArcomage: si alza la propria torre e si abbatte quella dell’avversario con 754 carte, ognuna con la sua illustrazione. Mattoni, gemme e reclute si producono a ogni turno e le keyword legano le carte fra loro. Mazzi da comporre, un negozio dopo ogni partita e sette sfide.',
+    url: 'https://fithzhood.github.io/spellkeep/spellkeep.html',
+    repo: 'https://github.com/fithzhood/spellkeep',
+    tipo: 'gioco', tag: ['carte', 'torri', 'arcomage', 'contro il computer', 'strategia']
+  },
+  {
+    id: 'spellkeep-carte', nome: 'SpellKeep Cards', sotto: 'Le 754 carte di SpellKeep, da sfogliare',
+    testo: 'Le carte del gioco disegnate con lo stesso codice della partita: illustrazione, costo, rarità, keyword e testo. Si filtrano per rarità, keyword, tipo e valore del costo, livello, nome e testo; un cursore cambia la grandezza della griglia, e un tocco apre la carta in grande con la figura a piena risoluzione.',
+    url: 'https://fithzhood.github.io/spellkeep/spellkeep-carte.html',
+    repo: 'https://github.com/fithzhood/spellkeep',
+    tipo: 'strumento', tag: ['carte', 'catalogo', 'spellkeep', 'arcomage']
+  },
+  {
     id: 'speziale', nome: 'Speziale', sotto: 'Deduzione con icone che non hanno un nome',
     testo: 'Le regole della bottega cambiano a ogni partita e non sono scritte da nessuna parte: si capiscono provando. Il congedo, alla fine, e\' quello che rende la partita giusta.',
     url: 'https://fithzhood.github.io/speziale/speziale.html',
