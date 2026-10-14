@@ -232,6 +232,13 @@ const APP = [
     tipo: 'gioco', tag: ['puzzle', 'logica', 'livelli', 'rotazioni']
   },
   {
+    id: 'pipetta', nome: 'Pipetta', sotto: 'Che colore è? Lo dice la fotocamera',
+    testo: 'Si punta il mirino su un oggetto, dal vivo o su una foto della galleria, e si legge il colore in HEX, RGB e HSL, da copiare con un tocco. Il nome è quello standard dei colori del web, tradotto in italiano, scelto con una formula che segue l’occhio e non i numeri. Si può bloccare l’inquadratura, ingrandire con la lente e salvare i colori trovati.',
+    url: 'https://fithzhood.github.io/pipetta/pipetta.html',
+    repo: 'https://github.com/fithzhood/pipetta',
+    tipo: 'strumento', tag: ['colori', 'fotocamera', 'rgb', 'hex', 'contagocce', 'grafica']
+  },
+  {
     id: 'pokerogue', nome: 'PokeRogue Mobile', sotto: 'Il roguelite dei mostri tascabili, rifatto per il telefono',
     testo: 'Squadra da comporre, duecento ondate, biomi, uova e gacha: una riscrittura da zero pensata per lo schermo verticale e per il tocco.',
     url: 'https://fithzhood.github.io/pokerogue-clear/pokerogue-clear.html',
