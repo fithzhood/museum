@@ -162,6 +162,13 @@ const APP = [
     tipo: 'gioco', tag: ['puzzle', 'logica', 'deduzione']
   },
   {
+    id: 'inkfinite', nome: 'Inkfinite', sotto: 'Una lavagna infinita per scrivere col pennino',
+    testo: 'Si scrive, si sposta e si ingrandisce senza mai arrivare al bordo. Penna con pressione, evidenziatore, puntatore laser che svanisce, forme con i vertici da trascinare e un piano cartesiano. Fondo e quadretti a scelta, fino a nove pagine, e una minimappa per ritrovarsi.',
+    url: 'https://fithzhood.github.io/inkfinite/inkfinite.html',
+    repo: 'https://github.com/fithzhood/inkfinite',
+    tipo: 'strumento', tag: ['lavagna', 'disegno', 'pennino', 'appunti', 'tablet', 'lezione']
+  },
+  {
     id: 'leggio', nome: 'Leggio', sotto: 'Si fa leggere i testi ad alta voce',
     testo: 'Accetta testo incollato, epub e pdf e li legge con la voce del telefono, tenendo il segno. Comodo per ascoltare un capitolo mentre si fa altro.',
     url: 'https://fithzhood.github.io/leggio/leggio.html',
