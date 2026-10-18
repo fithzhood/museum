@@ -260,6 +260,13 @@ const APP = [
     tipo: 'gioco', tag: ['carte', 'poker', 'contro il computer']
   },
   {
+    id: 'quanto', nome: 'Quanto', sotto: 'La fisica del liceo, goccia a goccia',
+    testo: 'Trentadue argomenti, dalle misure alla fisica dei quanti: spiegazioni con grafici e vettori interattivi, 175 video raccontati da Stilla, esempi svolti, flashcard, esercizi con le unità di misura, quiz. Venti laboratori da toccare: il cannone, le montagne russe, i circuiti, il banco ottico, il satellite.',
+    url: 'https://fithzhood.github.io/quanto/quanto.html',
+    repo: 'https://github.com/fithzhood/quanto',
+    tipo: 'scuola', tag: ['fisica', 'liceo', 'video', 'laboratori', 'flashcard', 'quiz', 'esercizi', 'ripasso']
+  },
+  {
     id: 'randomcommander', nome: 'Random Commander', sotto: 'Quale mazzo tocca stasera',
     testo: 'I mazzi girano in tondo fra «da giocare», «in corso» e «giocati», e si spostano toccandoli; il sorteggio ne pesca uno. Ogni mazzo porta le sue bande di colore, nell\'ordine in cui sono state scelte.',
     url: 'https://fithzhood.github.io/randomcommander/randomcommander.html',
