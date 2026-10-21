@@ -64,6 +64,13 @@ const APP = [
     tipo: 'scuola', tag: ['matematica', 'liceo', 'flashcard', 'quiz', 'esercizi', 'grafici', 'animazioni', 'ripasso']
   },
   {
+    id: 'coulomb', nome: 'Coulomb', sotto: 'Ripasso a domande: cariche elettriche e legge di Coulomb',
+    testo: 'Domande a quattro risposte sulla carica elettrica, l’elettrizzazione, la legge di Coulomb, la costante dielettrica e le forze fra tre cariche, più esercizi con numeri sempre nuovi. Dopo ogni risposta, la spiegazione a passi. Pensata per chi ha DSA: carattere ad alta leggibilità, frasi corte, e un tasto che legge tutto ad alta voce.',
+    url: 'https://fithzhood.github.io/coulomb/coulomb.html',
+    repo: 'https://github.com/fithzhood/coulomb',
+    tipo: 'scuola', tag: ['fisica', 'elettrostatica', 'quiz', 'esercizi', 'ripasso', 'dsa']
+  },
+  {
     id: 'cronoitalia', nome: 'CronoItalia', sotto: 'La carta d\'Italia che cambia con l\'anno',
     testo: 'Si sposta l\'anno e i confini degli stati italiani si ridisegnano. Accanto alla carta ci sono diorami a voxel delle scene di quel periodo.',
     url: 'https://fithzhood.github.io/cronoitalia/cronoitalia.html',
