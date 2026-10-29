@@ -246,6 +246,13 @@ const APP = [
     tipo: 'gioco', tag: ['puzzle', 'logica', 'livelli', 'rotazioni']
   },
   {
+    id: 'ottovolante', nome: 'Ottovolante', sotto: 'Lo studio di funzione, in carrello sulle montagne russe',
+    testo: 'Il binario è il grafico della funzione, e un omino ci corre sopra raccontando quello che incontra: pianta i cartelli del dominio, cancella il semipiano dove il grafico non può stare, legge la pendenza con un’asta tangente, passa da liana ad asta nei flessi. Per i limiti arrivano due amici, uno da sinistra e uno da destra, che gridano la loro quota. Ogni giro aggiunge una riga alla tabella dei segni. Nove funzioni, dalla retta all’asintoto, per la LIM o per il PC.',
+    url: 'https://fithzhood.github.io/ottovolante/ottovolante.html',
+    repo: 'https://github.com/fithzhood/ottovolante',
+    tipo: 'scuola', tag: ['matematica', 'studio di funzione', 'limiti', 'derivate', 'segno', 'LIM']
+  },
+  {
     id: 'pipetta', nome: 'Pipetta', sotto: 'Che colore è? Lo dice la fotocamera',
     testo: 'Si punta il mirino su un oggetto, dal vivo o su una foto della galleria, e si legge il colore in HEX, RGB e HSL, da copiare con un tocco. Il nome è quello standard dei colori del web, tradotto in italiano, scelto con una formula che segue l’occhio e non i numeri. Si può bloccare l’inquadratura, ingrandire con la lente e salvare i colori trovati.',
     url: 'https://fithzhood.github.io/pipetta/pipetta.html',
