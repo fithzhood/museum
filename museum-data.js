@@ -247,7 +247,7 @@ const APP = [
   },
   {
     id: 'ottovolante', nome: 'Ottovolante', sotto: 'Lo studio di funzione, in carrello sulle montagne russe',
-    testo: 'Il binario è il grafico della funzione, e un omino ci corre sopra raccontando quello che incontra: pianta i cartelli del dominio, cancella il semipiano dove il grafico non può stare, legge la pendenza con un’asta tangente, passa da liana ad asta nei flessi. Per i limiti arrivano due amici, uno da sinistra e uno da destra, che gridano la loro quota. Ogni giro aggiunge una riga alla tabella dei segni. Nove funzioni, dalla retta all’asintoto, per la LIM o per il PC.',
+    testo: 'Il binario è il grafico della funzione, e un omino ci corre sopra raccontando quello che incontra: pianta i cartelli del dominio, cancella il semipiano dove il grafico non può stare, legge la pendenza con un’asta tangente, passa da liana ad asta nei flessi. Per i limiti arrivano due amici, uno da sinistra e uno da destra, che gridano la loro quota. Ogni giro aggiunge una riga alla tabella dei segni. Tredici funzioni, dalla retta alle fratte con due asintoti, per la LIM o per il PC.',
     url: 'https://fithzhood.github.io/ottovolante/ottovolante.html',
     repo: 'https://github.com/fithzhood/ottovolante',
     tipo: 'scuola', tag: ['matematica', 'studio di funzione', 'limiti', 'derivate', 'segno', 'LIM']
