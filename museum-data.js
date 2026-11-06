@@ -295,6 +295,13 @@ const APP = [
     tipo: 'svago', tag: ['magic', 'commander', 'mazzi', 'sorteggio', 'carte']
   },
   {
+    id: 'scacchiera', nome: 'Scacchiera ∞', sotto: 'Limiti e valori di una funzione, segnati su una scacchiera',
+    testo: 'Una scacchiera 9×9 con le coordinate da −∞ a +∞. Per ogni condizione, come f(2) = −1 o un limite che vale +∞, si piazza il segno giusto: pallino pieno, pallino vuoto o tratteggio. A esercizio risolto compaiono gli asintoti e si disegna il grafico di una funzione che rispetta tutte le condizioni. Otto livelli, ognuno con la sua spiegazione all’inizio; negli ultimi la scacchiera sparisce e restano gli assi.',
+    url: 'https://fithzhood.github.io/scacchiera-limiti/scacchiera-limiti.html',
+    repo: 'https://github.com/fithzhood/scacchiera-limiti',
+    tipo: 'scuola', tag: ['matematica', 'limiti', 'asintoti', 'funzioni', 'grafici']
+  },
+  {
     id: 'scalaquaranta', nome: 'Scala Quaranta', sotto: 'Il solitario che si gioca con un pollice',
     testo: 'La versione a un giocatore del gioco di carte: scale e tris da calare, con la mano che sta tutta sullo schermo del telefono senza rimpicciolirsi.',
     url: 'https://fithzhood.github.io/scalaquaranta/scalaquaranta.html',
