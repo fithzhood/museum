@@ -57,6 +57,13 @@ const APP = [
     tipo: 'strumento', tag: ['lego', 'costruzioni', '3d']
   },
   {
+    id: 'campo-elettrico', nome: 'Campo Elettrico', sotto: 'Cariche sul piano e le linee che disegnano',
+    testo: 'Si mettono cariche positive e negative dove si vuole, poi si lascia andare una carica di prova: seguendo il campo, la sua traccia è la linea di campo. Con l\'inerzia accesa si muove invece con la forza vera, e la linea tratteggiata accanto mostra quanto se ne allontana. «Campo completo» le disegna tutte.',
+    url: 'https://fithzhood.github.io/campo-elettrico/campo-elettrico.html',
+    repo: 'https://github.com/fithzhood/campo-elettrico',
+    tipo: 'scuola', tag: ['fisica', 'elettrostatica', 'campo elettrico', 'linee di campo', 'simulazione']
+  },
+  {
     id: 'compasso', nome: 'Compasso', sotto: 'La matematica del liceo, un argomento alla volta',
     testo: 'Trentadue argomenti, dagli insiemi numerici agli integrali: spiegazioni con grafici interattivi e animazioni, esempi svolti, flashcard da scegliere e ripassare, esercizi con il controllo della risposta, quiz di teoria. Zenone, la tartaruga, dà suggerimenti e racconta i matematici.',
     url: 'https://fithzhood.github.io/compasso/compasso.html',
